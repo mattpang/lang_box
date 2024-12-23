@@ -42,7 +42,7 @@ export const createContent = (languages) => {
 
     lines.push(
       [
-        trimRightStr(name, 10).padEnd(10),
+        trimRightStr(name, 30).padEnd(30),
         ("+" + formatNum(additions)).padStart(7) +
           "/" +
           ("-" + formatNum(deletions)).padStart(7),
